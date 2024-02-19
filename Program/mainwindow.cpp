@@ -48,7 +48,7 @@ void MainWindow::conne(QString str, QString str2)
 
 void MainWindow::on_action_triggered()
 {
-    QMessageBox::about(this, "Информация о программе", "Программу разработал\nкурсант 392 учебной группы\nрядовой Погодин Н.В.");
+    QMessageBox::about(this, "Информация о программе", "");
 }
 
 void MainWindow::on_pushButton_clicked()
